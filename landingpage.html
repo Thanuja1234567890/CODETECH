@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a; /* Dark background color for dark mode */
+            color: #fff; /* Text color for dark mode */
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .main-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+        }
+
+        .feature-cards {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+
+        .feature-card {
+            border: 1px solid #34495e; /* Border color for dark mode */
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            flex: 1;
+            margin: 10px;
+            text-align: justify; /* Distribute text evenly between margins */
+        }
+
+        .feature-card h2 {
+            color: #000; /* Set title color to black */
+            text-align: center; /* Center align the heading */
+            margin-bottom: 10px; /* Add some space between heading and text */
+        }
+
+        .feature-card p {
+            color: #fff; /* Text color for dark mode */
+        }
+
+        .feature-card.our-mission {
+            background: linear-gradient(to right, #3498db, #192a56); /* Gradient background for Our Mission */
+        }
+
+        .feature-card.strategic-planning {
+            background: linear-gradient(to right, #e74c3c, #c0392b); /* Gradient background for Strategic Planning */
+        }
+
+        .feature-card.it-services {
+            background: linear-gradient(to right, #27ae60, #2ecc71); /* Gradient background for IT Services */
+        }
+
+        .cta {
+            text-align: center;
+        }
+
+        button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 0.5px; /* Smallest padding for the smallest footer */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 1; /* Set a higher z-index to bring it to the front */
+        }
+    </style>
+    <title>Your Landing Page</title>
+</head>
+
+<body>
+    <header>
+        <h1>CODTECH IT SOLUTIONS</h1>
+        <p>Unveiling the power of the connected world</p>
+    </header>
+
+    <section class="main-section">
+        <div class="feature-cards">
+            <div class="feature-card our-mission">
+                <h2>Our Mission</h2>
+                <p>At CodTech IT Solutions, we are dedicated to providing our clients with the highest level of business and management consulting services. We strive to help our clients achieve their goals and reach their full potential.</p>
+            </div>
+            <div class="feature-card strategic-planning">
+                <h2>Strategic Planning</h2>
+                <p>Our team of experts will help you develop a clear and concise strategic plan that aligns with your business goals and objectives.</p>
+            </div>
+            <div class="feature-card it-services">
+                <h2>IT Services</h2>
+                <p>"Elevate your brand's digital presence with CodTech's exclusive services! From crafting engaging websites to developing dynamic web applications, we're here to make your online mark. In today's business landscape, a website isn't an option; it's a must-have for businesses, big or small. Let us be your digital partner, ensuring your online presence not only exists but thrives, seizing the vast opportunities in the digital realm."
+
+                    Having a website helps you maintain your online presence. </p>
+            </div>
+        </div>
+
+        <div class="cta">
+            <h2>Get Started Today!</h2>
+            <p>Join our amazing community and experience the benefits.</p>
+            <button>Sign Up</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CODTECH IT SOLUTIONS. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
